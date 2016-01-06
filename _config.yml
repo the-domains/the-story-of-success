@@ -1,28 +1,40 @@
-name: the story of success
 favicon: null
-layout_spectrum: 0.2408843762241304
-typography_spectrum: 0.5388226211071014
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: the story of success
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
-  brandStrength: 0.8950449184048921
-  lightness: 0.12094369763508439
-  saturation: 0.2074195418972522
-  rhythmicContrast: 0.08636248018592596
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7419355
+  brandStrength: 1
+  lightness: 0.2078853
+  brandColors:
+    - '#1F1E1F'
+    - '#5E6E87'
+    - '#D8904B'
+    - '#AB7865'
+    - '#6E4130'
+  rhythmicContrast: 1
+typography_spectrum: 0.7849463
+layout_spectrum: 0.9139785
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
